@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "subagent-mail"
+version = "0.1.0"
+description = "SDK Python de Subagent Mail : des boîtes mail pour agents IA, avec des règles d'envoi appliquées par le serveur."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Subagent", email = "contact@subagent.fr" }]
+keywords = ["email", "e-mail", "agent", "ia", "ai-agent", "mcp", "inbox", "subagent"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Natural Language :: French",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Communications :: Email",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://subagent.fr"
+Documentation = "https://subagent.fr/docs"
+Repository = "https://github.com/subagent-fr/subagent-python"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+subagent_mail = ["py.typed"]
