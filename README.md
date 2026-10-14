@@ -10,7 +10,7 @@ Le SDK Python de **Subagent Mail** : des boîtes mail pour agents IA. Votre agen
 ## Installer
 
 ```sh
-pip install subagent-mail
+pip install git+https://github.com/subagent-fr/subagent-python
 ```
 
 ## Démarrer
