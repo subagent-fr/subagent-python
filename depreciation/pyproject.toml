@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "subagent-mail"
+version = "0.1.2"
+description = "Renamed escouade-mail. This package re-exports escouade-mail; install escouade-mail instead."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{ name = "Escouade", email = "contact@subagent.fr" }]
+dependencies = ["escouade-mail>=0.1.1"]
+
+[project.urls]
+Homepage = "https://escouade.io/mail"
+Repository = "https://github.com/escouade-io/escouade-mail-python"
+
+[tool.setuptools.packages.find]
+where = ["src"]
