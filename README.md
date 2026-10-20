@@ -1,3 +1,7 @@
+> **This repository has moved to [escouade-io/escouade-mail-python](https://github.com/escouade-io/escouade-mail-python).** Subagent is now Escouade Mail; this repository is archived.
+>
+> **Ce dépôt est devenu [escouade-io/escouade-mail-python](https://github.com/escouade-io/escouade-mail-python).** Subagent devient Escouade Mail ; ce dépôt est archivé.
+
 # subagent-python
 
 Le SDK Python de **Subagent Mail** : des boîtes mail pour agents IA. Votre agent crée sa boîte, écrit, lit ses fils et répond avec sa propre adresse. Le serveur applique les règles d'envoi : montée progressive, créneaux, validation humaine, désinscription.
